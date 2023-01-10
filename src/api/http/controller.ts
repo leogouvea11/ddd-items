@@ -6,7 +6,7 @@ import { ItemService } from '../../app/item'
 import { validateCreateItem } from './validation/item'
 
 @injectable()
-export class HTTPController {
+export class ItemsHTTPController {
   @inject(TYPES.ItemService) private _itemService: ItemService
 
   public async listItems(ctx: RouterContext): Promise<void> {

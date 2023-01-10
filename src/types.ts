@@ -2,7 +2,7 @@ const TYPES = {
   Database: Symbol.for('Database'),
 
   Server: Symbol.for('Server'),
-  HTTPController: Symbol.for('HTTPController'),
+  ItemsHTTPController: Symbol.for('ItemsHTTPController'),
   HTTPRouter: Symbol.for('HTTPRouter'),
 
   ItemService: Symbol.for('ItemService'),
