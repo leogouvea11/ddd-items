@@ -1,7 +1,7 @@
 import { injectable, inject } from 'inversify'
 import { TYPES } from '../../../../types'
-import { Item, baseItem } from '../../../../domain/item'
-import { ItemRepository } from '../../../../domain/repository'
+import { Item, baseItem } from '../../../../domain/item/item'
+import { ItemRepository } from '../../../../domain/item/repository'
 import { MemoryData } from '../memory-data'
 import { ItemMapper } from '../mappers/item'
 

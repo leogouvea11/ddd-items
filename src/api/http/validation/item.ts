@@ -1,5 +1,5 @@
 import Joi from 'joi'
-import { baseItem } from '../../../domain/item'
+import { baseItem } from '../../../domain/item/item'
 
 const schema = Joi.object({
   id: Joi.string().alphanum().min(3).max(30),

@@ -1,4 +1,4 @@
-import { Item, baseItem } from '../../../../domain/item'
+import { Item, baseItem } from '../../../../domain/item/item'
 
 export class ItemMapper {
   public static toDomain(raw: baseItem): Item {

@@ -1,7 +1,7 @@
 import Router, { RouterContext } from '@koa/router'
 import { inject, injectable } from 'inversify'
 import { TYPES } from '../../types'
-import { ItemsHTTPController } from './controller'
+import { ItemsHTTPController } from './controllers/ItemController'
 
 @injectable()
 export class HTTPRouter {

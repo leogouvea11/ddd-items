@@ -3,9 +3,9 @@ import 'reflect-metadata'
 import { Container } from 'inversify'
 import { TYPES } from './types'
 
-import { ItemRepository } from './domain/repository'
+import { ItemRepository } from './domain/item/repository'
 
-import { ItemsHTTPController } from './api/http/controller'
+import { ItemsHTTPController } from './api/http/controllers/ItemController'
 import { HTTPRouter } from './api/http/router'
 import { Server, IServer } from './api/http/server'
 

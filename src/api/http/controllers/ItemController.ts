@@ -1,9 +1,9 @@
 import { RouterContext } from '@koa/router'
 import { inject, injectable } from 'inversify'
-import { TYPES } from '../../types'
-import { Item } from '../../domain/item'
-import { ItemService } from '../../app/item'
-import { validateCreateItem } from './validation/item'
+import { TYPES } from '../../../types'
+import { Item } from '../../../domain/item/item'
+import { ItemService } from '../../../app/item'
+import { validateCreateItem } from '../validation/item'
 
 @injectable()
 export class ItemsHTTPController {
